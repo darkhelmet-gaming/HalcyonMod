@@ -1,0 +1,76 @@
+{
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "mana-and-artifice:purified_vinteum_ingot"
+    }
+  },
+  "name": {
+    "text": "Purified Vinteum"
+  },
+  "stats": {
+    "main": {
+      "durability": 500.0,
+      "armor_durability": 18.0,
+      "repair_value": 0.5,
+      "enchantability": 25.0,
+      "harvest_level": 3.0,
+      "harvest_speed": 8.0,
+      "melee_damage": 6,
+      "magic_damage": 6,
+      "attack_speed": 0.5,
+      "armor": 16.0,
+      "armor/helmet": 4,
+      "armor/chestplate": 8,
+      "armor/leggings": 6,
+      "armor/boots": 3,
+      "armor_toughness": 3,
+      "magic_armor": 15.0,
+      "ranged_damage": 2.0,
+      "ranged_speed": -0.2,
+      "rarity": 35.0,
+      "silentgems:chargeability": 1.2
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.15
+      },
+      "melee_damage": {
+        "mul2": 0.05
+      },
+      "rarity": 35.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      },
+      {
+        "name": "silentgear:ancient",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.35
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      }
+    ]
+  }
+}

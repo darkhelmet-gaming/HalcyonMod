@@ -1,0 +1,91 @@
+{
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "mysticalagriculture:inferium_ingot"
+    }
+  },
+  "name": {
+    "text": "Inferium"
+  },
+  "stats": {
+    "main": {
+      "durability": 270.0,
+      "armor_durability": 15.1,
+      "enchantability": 14.1,
+      "harvest_level": 2,
+      "harvest_speed": 6.1,
+      "melee_damage": 2.1,
+      "magic_damage": 1.1,
+      "attack_speed": 0,
+      "armor": 15.1,
+      "armor/helmet": 2.1,
+      "armor/chestplate": 6.1,
+      "armor/leggings": 5.1,
+      "armor/boots": 2.1,
+      "magic_armor": 6.1,
+      "ranged_damage": 1.1,
+      "ranged_speed": 0.2,
+      "projectile_speed": 1.1,
+      "projectile_accuracy": 1.2,
+      "rarity": 20.1,
+      "silentgems:chargeability": 0.8
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.16
+      },
+      "enchantability": [
+        {
+          "add": 1.0
+        }
+      ],
+      "rarity": 20.1
+    },
+    "tip": {
+      "durability": {
+        "add": 129.0
+      },
+      "armor_durability": {
+        "add": 4.1
+      },
+      "harvest_level": {
+        "max": 2.0
+      },
+      "harvest_speed": {
+        "add": 1.1
+      },
+      "melee_damage": {
+        "add": 1.1
+      },
+      "ranged_speed": {
+        "add": 0.3
+      },
+      "rarity": {
+        "add": 8.1
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:malleable",
+        "level": 2
+      }
+    ]
+  }
+}

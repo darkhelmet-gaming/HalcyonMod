@@ -1,0 +1,77 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/pewter",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/pewter"
+    }
+  },
+  "name": {
+    "text": "Pewter"
+  },
+  "stats": {
+    "main": {
+      "durability": 300.0,
+      "armor_durability": 12.0,
+      "enchantability": 17.0,
+      "harvest_level": 2.0,
+      "harvest_speed": 5.0,
+      "melee_damage": 2.0,
+      "magic_damage": 0,
+      "attack_speed": -0.4,
+      "armor": 12.0,
+      "armor/helmet": 2.0,
+      "armor/chestplate": 5.0,
+      "armor/leggings": 4.0,
+      "armor/boots": 2.0,
+      "magic_armor": 10.0,
+      "ranged_damage": 1.0,
+      "ranged_speed": -0.3,
+      "rarity": 50.0,
+      "silentgems:chargeability": 0.8
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.1
+      },
+      "harvest_speed": {
+        "mul2": -0.1
+      },
+      "rarity": 40.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 2
+      },
+      {
+        "name": "silentgear:sturdy",
+        "level": 2
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:soft",
+        "level": 4
+      }
+    ]
+  }
+}

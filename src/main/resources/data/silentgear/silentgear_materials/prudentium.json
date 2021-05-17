@@ -1,0 +1,91 @@
+{
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "mysticalagriculture:prudentium_ingot"
+    }
+  },
+  "name": {
+    "text": "Prudentium"
+  },
+  "stats": {
+    "main": {
+      "durability": 300.0,
+      "armor_durability": 15.4,
+      "enchantability": 15,
+      "harvest_level": 2,
+      "harvest_speed": 6.4,
+      "melee_damage": 3,
+      "magic_damage": 2,
+      "attack_speed": 0,
+      "armor": 16,
+      "armor/helmet": 2.5,
+      "armor/chestplate": 6.5,
+      "armor/leggings": 5.5,
+      "armor/boots": 2.5,
+      "magic_armor": 7,
+      "ranged_damage": 1.1,
+      "ranged_speed": 0.2,
+      "projectile_speed": 1.1,
+      "projectile_accuracy": 1.2,
+      "rarity": 20.5,
+      "silentgems:chargeability": 0.8
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.16
+      },
+      "enchantability": [
+        {
+          "add": 2.0
+        }
+      ],
+      "rarity": 20.5
+    },
+    "tip": {
+      "durability": {
+        "add": 180.0
+      },
+      "armor_durability": {
+        "add": 4.1
+      },
+      "harvest_level": {
+        "max": 2.0
+      },
+      "harvest_speed": {
+        "add": 1.1
+      },
+      "melee_damage": {
+        "add": 1.1
+      },
+      "ranged_speed": {
+        "add": 0.3
+      },
+      "rarity": {
+        "add": 8.5
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:malleable",
+        "level": 2
+      }
+    ]
+  }
+}

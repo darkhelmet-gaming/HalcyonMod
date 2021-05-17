@@ -1,0 +1,64 @@
+{
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "eidolon:arcane_gold_ingot"
+    }
+  },
+  "name": {
+    "text": "Arcane Gold"
+  },
+  "stats": {
+    "main": {
+      "durability": 350.0,
+      "armor_durability": 14.0,
+      "enchantability": 20.0,
+      "harvest_level": 3.0,
+      "harvest_speed": 6.0,
+      "melee_damage": 4.0,
+      "magic_damage": 4,
+      "attack_speed": 1,
+      "armor": 14.0,
+      "armor/helmet": 3.0,
+      "armor/chestplate": 6.0,
+      "armor/leggings": 5.0,
+      "armor/boots": 3.0,
+      "magic_armor": 10.0,
+      "ranged_damage": 1.0,
+      "ranged_speed": -0.3,
+      "rarity": 50.0,
+      "silentgems:chargeability": 0.8
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.1
+      },
+      "harvest_speed": {
+        "mul2": -0.1
+      },
+      "rarity": 40.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 2
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:soft",
+        "level": 4
+      }
+    ]
+  }
+}

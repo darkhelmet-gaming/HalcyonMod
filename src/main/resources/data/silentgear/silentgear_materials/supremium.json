@@ -1,0 +1,91 @@
+{
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "mysticalagriculture:supremium_ingot"
+    }
+  },
+  "name": {
+    "text": "Supremium"
+  },
+  "stats": {
+    "main": {
+      "durability": 1000.0,
+      "armor_durability": 20,
+      "enchantability": 30,
+      "harvest_level": 4,
+      "harvest_speed": 8,
+      "melee_damage": 10,
+      "magic_damage": 5,
+      "attack_speed": 0,
+      "armor": 20,
+      "armor/helmet": 6,
+      "armor/chestplate": 12,
+      "armor/leggings": 10,
+      "armor/boots": 6,
+      "magic_armor": 12,
+      "ranged_damage": 2,
+      "ranged_speed": 1,
+      "projectile_speed": 2,
+      "projectile_accuracy": 1.8,
+      "rarity": 30,
+      "silentgems:chargeability": 1
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.25
+      },
+      "enchantability": [
+        {
+          "add": 2.0
+        }
+      ],
+      "rarity": 21
+    },
+    "tip": {
+      "durability": {
+        "add": 500.0
+      },
+      "armor_durability": {
+        "add": 5
+      },
+      "harvest_level": {
+        "max": 2.0
+      },
+      "harvest_speed": {
+        "add": 1.1
+      },
+      "melee_damage": {
+        "add": 1.1
+      },
+      "ranged_speed": {
+        "add": 0.3
+      },
+      "rarity": {
+        "add": 10
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:malleable",
+        "level": 2
+      }
+    ]
+  }
+}

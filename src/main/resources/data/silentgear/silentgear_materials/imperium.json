@@ -1,0 +1,91 @@
+{
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "mysticalagriculture:imperium_ingot"
+    }
+  },
+  "name": {
+    "text": "Imperium"
+  },
+  "stats": {
+    "main": {
+      "durability": 750.0,
+      "armor_durability": 16,
+      "enchantability": 22,
+      "harvest_level": 3,
+      "harvest_speed": 7.5,
+      "melee_damage": 5,
+      "magic_damage": 4,
+      "attack_speed": 0,
+      "armor": 18,
+      "armor/helmet": 4,
+      "armor/chestplate": 8,
+      "armor/leggings": 7,
+      "armor/boots": 4,
+      "magic_armor": 9,
+      "ranged_damage": 1.3,
+      "ranged_speed": 0.3,
+      "projectile_speed": 1.3,
+      "projectile_accuracy": 1.4,
+      "rarity": 22,
+      "silentgems:chargeability": 0.9
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.25
+      },
+      "enchantability": [
+        {
+          "add": 2.0
+        }
+      ],
+      "rarity": 21
+    },
+    "tip": {
+      "durability": {
+        "add": 300.0
+      },
+      "armor_durability": {
+        "add": 5
+      },
+      "harvest_level": {
+        "max": 2.0
+      },
+      "harvest_speed": {
+        "add": 1.1
+      },
+      "melee_damage": {
+        "add": 1.1
+      },
+      "ranged_speed": {
+        "add": 0.3
+      },
+      "rarity": {
+        "add": 10
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:malleable",
+        "level": 2
+      }
+    ]
+  }
+}

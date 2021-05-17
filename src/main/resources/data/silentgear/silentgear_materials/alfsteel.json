@@ -1,0 +1,122 @@
+{
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "mythicbotany:alfsteel_ingot"
+    }
+  },
+  "name": {
+    "text": "Alfsteel"
+  },
+  "stats": {
+    "main": {
+      "durability": 4000.0,
+      "armor_durability": 40.0,
+      "enchantability": 32.0,
+      "harvest_level": 4.0,
+      "harvest_speed": 10.0,
+      "melee_damage": 6.0,
+      "attack_speed": 0,
+      "armor": 24.0,
+      "armor_toughness": 12.0,
+      "ranged_damage": 3.0,
+      "ranged_speed": 0.4,
+      "rarity": 100.0,
+      "silentgems:chargeability": 1.5,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 1.1,
+      "magic_armor": 10.0
+    },
+    "tip": {
+      "durability": {
+        "add": 250.0
+      },
+      "harvest_level": {
+        "max": 3.0
+      },
+      "armor_durability": {
+        "add": 10.0
+      },
+      "harvest_speed": {
+        "add": 2.0
+      },
+      "melee_damage": {
+        "add": 2.0
+      },
+      "rarity": {
+        "add": 20.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 2
+      },
+      {
+        "name": "silentgear:synergistic",
+        "level": 3
+      },
+      {
+        "name": "managear:mana",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },
+      {
+        "name": "silentgear:brilliant",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          },
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "armor"
+          }
+        ]
+      },
+      {
+        "name": "managear:manaburst",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          },
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "weapon"
+          }
+        ]
+
+      }
+    ],
+    "tip": [
+      {
+        "name": "managear:manaburst",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "weapon"
+          }
+        ]
+      }
+    ]
+  }
+}

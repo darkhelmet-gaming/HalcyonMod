@@ -1,0 +1,83 @@
+{
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/neptunium"
+    }
+  },
+  "name": {
+    "text": "Neptunium"
+  },
+  "stats": {
+    "main": {
+      "durability": 2600.0,
+      "armor_durability": 42.0,
+      "repair_value": 0.5,
+      "enchantability": 19.0,
+      "harvest_level": 4.0,
+      "harvest_speed": 15.0,
+      "melee_damage": 6.0,
+      "magic_damage": 6.0,
+      "attack_speed": -0.1,
+      "armor": 22.0,
+      "armor/helmet": 4.0,
+      "armor/chestplate": 8.0,
+      "armor/leggings": 6.0,
+      "armor/boots": 4.0,
+      "armor_toughness": 10.0,
+      "magic_armor": 10.0,
+      "ranged_damage": 3.0,
+      "ranged_speed": -0.1,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 1.3,
+      "rarity": 83.0,
+      "silentgems:chargeability": 0.9
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.5
+      },
+      "harvest_speed": {
+        "mul2": 0.5
+      },
+      "ranged_damage": {
+        "add": 1.0
+      },
+      "rarity": 42.0
+    },
+    "tip": {
+      "durability": {
+        "add": 550.0
+      },
+      "armor_durability": {
+        "add": 16.0
+      },
+      "harvest_level": {
+        "max": 4.0
+      },
+      "rarity": {
+        "add": 40.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:aquatic",
+        "level": 5
+      },
+      {
+        "name": "silentgear:swift_swim",
+        "level": 5
+      }
+    ]
+  }
+}
